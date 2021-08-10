@@ -1,0 +1,26 @@
+.receitas {
+    background: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+        flex-direction: column;
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        flex-direction: row;
+        padding-left: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .receitas {
+        padding-left: 5rem;
+    }
+}

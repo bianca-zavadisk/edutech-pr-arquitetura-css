@@ -1,0 +1,18 @@
+.quem-somos__descricao {
+    color: #8C8888;
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 0 15% 1.5rem 15%;
+}
+
+@media screen and (min-width: 0) {
+    .quem-somos__descricao {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .quem-somos__descricao {
+        font-size: 1.75rem;
+    }
+}
